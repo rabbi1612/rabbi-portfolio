@@ -18,7 +18,8 @@ body{
 .back-ground{
     background-image: url("image/top-banner.png");
     background-repeat: no-repeat;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 section{
     height: 500px;
@@ -27,4 +28,22 @@ button{
     width: 15%;
     height: 15%;
     background-color: orange;
+}
+.link-button{
+    text-decoration: none;
+   background-image: linear-gradient(red, yellow);
+   border-radius: 2px;
+   font-size: 700;
+   padding: 5px;
+}
+.widt{
+    width: 50%;
+    float: right;
+}
+.widt img{
+    width: 100%;
+}
+.background{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
 }
